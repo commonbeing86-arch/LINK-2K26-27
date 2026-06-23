@@ -1,0 +1,551 @@
+
+/* RESET */
+body {
+
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    overflow-x: hidden; 
+    background-color: #0a1f3d; 
+    background-image:  
+        linear-gradient(135deg, rgba(10,31,61,0.95) 0%, rgba(10,31,61,0.4) 50%, rgba(245,194,139,0) 100%), 
+        linear-gradient(135deg, rgba(56, 47, 37, 0) 0%, rgba(245,194,139,0.6) 50%, rgba(245,194,139,1) 100%); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* ── page colors ── */
+
+/* Home Page (Deep ocean sweep)*/
+body.page-home {
+   background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg, rgba(10,31,61,0.97) 0%, rgba(13,59,79,0.6) 55%, rgba(15,79,96,0) 100%),
+  linear-gradient(135deg, rgba(15,79,96,0) 0%, rgba(13,59,79,0.55) 55%, rgba(15,79,96,1) 100%); 
+}
+
+/* Shepherds Page (Midnight plum)*/
+body.page-shepherds {
+    background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg, rgba(10,31,61,0.97) 0%, rgba(26,21,80,0.5) 55%, rgba(45,26,110,0) 100%),
+  linear-gradient(135deg, rgba(45,26,110,0) 0%, rgba(26,21,80,0.5) 55%, rgba(45,26,110,1) 100%);
+}
+
+/* Deacons Page (Mint & Slate) */
+body.page-deacons {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #55627000 100%
+  ),
+  linear-gradient(135deg,
+    #4ECDC400 0%,
+    #4ECDC499 50%,
+    #556270 100%
+  );
+}
+
+/* Third Year Theology Page (Northern light) */
+body.page-3th {
+    background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg, rgba(10,31,61,0.97) 0%, rgba(10,53,48,0.5) 55%, rgba(13,80,64,0) 100%),
+  linear-gradient(135deg, rgba(13,80,64,0) 0%, rgba(10,53,48,0.55) 55%, rgba(13,80,64,1) 100%);
+}
+
+/* Second Year Theology Page (Northern light) */
+body.page-2th {
+ background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg, rgba(10,31,61,0.97) 0%, rgba(10,53,48,0.5) 55%, rgba(13,80,64,0) 100%),
+  linear-gradient(135deg, rgba(13,80,64,0) 0%, rgba(10,53,48,0.55) 55%, rgba(13,80,64,1) 100%);
+}
+
+/* First Year Theology Page (Northern light) */
+body.page-1th {
+ background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg, rgba(10,31,61,0.97) 0%, rgba(10,53,48,0.5) 55%, rgba(13,80,64,0) 100%),
+  linear-gradient(135deg, rgba(13,80,64,0) 0%, rgba(10,53,48,0.55) 55%, rgba(13,80,64,1) 100%);
+}
+
+/* Abroad Page (Coral & blue) */
+body.page-abroad {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #2657eb00 100%
+  ),
+  linear-gradient(135deg,
+    #de616100 0%,
+    #de616199 50%,
+    #2657eb 100%
+  );
+}
+
+/* 3 Ph Page (Cyan & lime) */
+body.page-3ph {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #92FE9D00 100%
+  ),
+  linear-gradient(135deg,
+    #00C9FF00 0%,
+    #00C9FF99 50%,
+    #92FE9D 100%
+  );
+}
+
+/* 2 Ph Page (Cyan & lime) */
+body.page-2ph {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #92FE9D00 100%
+  ),
+  linear-gradient(135deg,
+    #00C9FF00 0%,
+    #00C9FF99 50%,
+    #92FE9D 100%
+  );
+}
+
+/* 1 Ph Page (Cyan & lime) */
+body.page-1ph {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #92FE9D00 100%
+  ),
+  linear-gradient(135deg,
+    #00C9FF00 0%,
+    #00C9FF99 50%,
+    #92FE9D 100%
+  );
+}
+
+/* Minor Seminary Page (flame & gold) */
+body.page-minor {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.95) 0%,
+    rgba(10,31,61,0.4) 50%,
+    #FFC37100 100%
+  ),
+  linear-gradient(135deg,
+    #FF5F6D00 0%,
+    #FF5F6D99 50%,
+    #FFC371 100%
+  );
+}
+
+/* Minor Seminary Page (flame & gold) */
+body.page-about {
+background-color: #0a1f3d;
+background-image:
+  linear-gradient(135deg,
+    rgba(10,31,61,0.97) 0%,
+    rgba(26,26,46,0.6) 45%,
+    rgba(247,151,30,0.2) 75%,
+    rgba(247,151,30,0) 100%
+  ),
+  linear-gradient(135deg,
+    rgba(247,151,30,0) 0%,
+    rgba(247,151,30,0.5) 50%,
+    rgba(255,210,0,0.85) 75%,
+    rgba(255,210,0,1) 100%
+  );
+}
+
+/* ── HAMBURGER BUTTON ── */
+.hamburger {
+    position: fixed; 
+    top: 16px; 
+    left: 16px; 
+    z-index: 1000; 
+    width: 48px; 
+    height: 48px; 
+    background: #0a1f3d; 
+    border: 2px solid #f5c28b; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 6px; 
+    padding: 0; 
+    transition: background 0.3s; 
+}
+
+
+.hamburger:hover {
+    background: #123d73; 
+}
+
+
+.hamburger span {
+    display: block; 
+    width: 24px; 
+    height: 2px; 
+    background: #f5c28b; 
+    border-radius: 2px; 
+    transition: transform 0.35s ease, opacity 0.25s ease; 
+    transform-origin: center; 
+}
+
+
+/* Animate to X when active */
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); 
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0; 
+    transform: scaleX(0); 
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg); 
+}
+
+
+/* ── OVERLAY ── */
+.overlay {
+    display: none; 
+    position: fixed; 
+    inset: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 900; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+
+.overlay.active {
+    display: block; 
+    opacity: 1; 
+}
+
+
+/* ── SIDE DRAWER ── */
+.drawer {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 270px; 
+    height: 100%; 
+    background: #0a1f3d; 
+    z-index: 950; 
+    transform: translateX(-100%); 
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.5);
+    display: flex; 
+    flex-direction: column; 
+}
+
+.drawer.open {
+    transform: translateX(0); 
+}
+.drawer-links {
+    list-style: none; 
+    margin: 0; 
+    padding: 16px 0; 
+}
+
+.drawer-links li a {
+    display: block; 
+    padding: 16px 24px; 
+    color: #f5f5f5; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: background 0.2s, color 0.2s, padding-left 0.2s; 
+    border-left: 3px solid transparent; 
+}
+
+.drawer-links li a:hover {
+    background: rgba(245, 194, 139, 0.1); 
+    color: #f5c28b; 
+    padding-left: 32px; 
+    border-left-color: #f5c28b; 
+}
+
+
+/* ── MAIN CONTENT ── */
+.container {
+    display: flex; 
+    height: 100vh; 
+     
+}
+
+
+/* LEFT PANEL */
+.left {
+    width: 30%; 
+    padding: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* PHOTO BOX */
+
+.photo {
+    width: 300px; 
+    height: 500px; 
+    background: #ccc; 
+    border: 2px solid #f5c28b;
+    border-radius: 10px; 
+    overflow: hidden; 
+    margin-bottom: 40px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    cursor: not-allowed;
+}
+
+.photo img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+/* ICONS */
+
+.icons {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.icon {
+    background: #0a1f3d; 
+    color: #f5c28b; 
+    padding: 15px; 
+    border: 2px solid #f5c28b;
+    border-radius: 12px; 
+    width: 180px; 
+    text-align: center; 
+    font-size: 22px; 
+    text-decoration: none; 
+    transition: 0.3s; 
+
+    
+}
+
+
+.icon:hover {
+    background: #123d73; 
+    transform: scale(1.05); 
+}
+
+.icon img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+}
+
+
+/* RIGHT PANEL */
+.right {
+    width: 70%; 
+    padding: 60px; 
+    background-color: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(5px); 
+}
+
+
+.name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 55px; 
+    color: #fcd9ac; 
+    margin-bottom: 30px; 
+}
+
+
+.right p {
+    font-size: 40px; 
+    margin: 12px 0; 
+    color: #f5f5f5; 
+}
+
+
+/* ── MOBILE ── */
+@media (max-width: 768px) {
+
+    .container { 
+
+        flex-direction: column; 
+        height: auto; 
+    } 
+
+
+    .left { 
+        width: 100%; 
+        padding: 20px; 
+        box-sizing: border-box; 
+    } 
+
+
+    .photo { 
+        width: 160px; 
+        height: 200px; 
+    } 
+
+
+    .icons { 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 12px; 
+    } 
+
+
+    .icon { 
+        width: 55px; 
+        padding: 10px; 
+        font-size: 14px; 
+    } 
+
+
+    .right { 
+        width: 100%; 
+        padding: 16px; 
+        box-sizing: border-box; 
+    } 
+
+
+    .name { 
+
+        font-size: 26px; 
+    } 
+
+
+    .right p { 
+        font-size: 18px; 
+    } 
+}
+
+
+.drawer {
+    height: 100vh; 
+
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+.drawer-links {
+    overflow-y: auto; 
+    flex: 1;   /* takes remaining space */ 
+
+
+}.drawer-links {
+    scroll-behavior: smooth; 
+}
+
+
+/* MENU LINKS */
+.drawer-links li a {
+    display: block; 
+    padding: 12px 20px; 
+    color: white; 
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+    border-radius: 8px; 
+}
+
+
+.drawer-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: translateX(5px); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); 
+    letter-spacing: 0.5px; 
+}
+
+
+.center-img {
+    display: block; 
+    margin: auto; 
+    max-width: 100%; 
+    height: auto; 
+    opacity: 0; 
+    animation: fadeIn 2s ease-in forwards; 
+}
+
+   @keyframes fadeIn { 
+    to{ 
+        opacity: 1; 
+    } 
+}
+
+.icon {
+    position: relative; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.icon::before {
+    content: ""; 
+    position: absolute; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background: rgba(109,255,204,0.4); 
+    z-index: 0; 
+    transform: scale(0.8); 
+    opacity: 0; 
+}
+.icon:hover::before {
+    animation: pulse 1.4s ease-in-out infinite; 
+    opacity: 1; 
+}
+@keyframes pulse {
+    0%{ 
+        transform: scale(0.8); 
+        opacity: 0.7; 
+    } 
+    70% { 
+        transform:scale(1.6); 
+        opacity: 0; 
+    } 
+    100% { 
+        transform: scale(0.8); 
+        opacity: 0; 
+    } 
+}
+
+.icon img {
+    position: relative; 
+    z-index: 1; 
+    width: 40px; 
+}
+
+.seminary { 
+    
+    font-family: 'Bangers', serif;
+    font-size: 72px;
+    color: #f8e3bb;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid rgba(248, 227, 187, 0.4);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.08);
+    
+}
+
+
